@@ -4,23 +4,34 @@
 
 Heartbeats is invested in creating bonding experiences for the young at heart. A bunch of team members got the idea to host a mobile app and created a app to manage the dating app and chat application
 
-Completing this trivia app will give you the ability to structure plan, implement, and test an API - skills essential for enabling your future applications to communicate with others.
+Working on this app will give you the ability to plan, architect, implement, deploy and test a real-time application - skills essential for enabling your future applications to communicate with others.
 
-## Starting and Submitting the Project
+## Architecture
 
-[Fork](https://help.github.com/en/articles/fork-a-repo) the project repository and [clone](https://help.github.com/en/articles/cloning-a-repository) your forked repository to your machine. Work on the project locally and make sure to push all your changes to the remote repository before submitting the link to your repository in the Classroom.
+![Arch Image](heartbeats-application-system-design-architecture.jpg)
 
 ## About the Stack
 
-We started the full stack application for you. It is designed with some key functional areas:
+We have chose this stack for our app.
+
+1. Frontend - Angular 15, Ionic, Microfrontend
+2. Backend - Graphql, Node, Springboot
+3. Store - Mongodb, Redis cache
+4. Deployments - Docker, Kubernetes, Helm, Any Cloud
+
+It is designed with some key functional areas:
 
 ### Backend
 
 The [backend](./backend/README.md) directory contains a partially completed API project having OpenAPI definitions for all API endpoints. It also holds generate stubs for backend DTO's and API interfaces
 
+Graphql, Node, Springboot
+
 > View the [Backend README](./backend/README.md) for more details.
 
 ### Frontend
+
+Angular 15, Ionic, Microfrontend
 
 The [frontend](./frontend/README.md) directory contains a complete Angular Ionic frontend to consume the data from the Springboot server. Read through the frontend code before starting and make notes regarding:
 
